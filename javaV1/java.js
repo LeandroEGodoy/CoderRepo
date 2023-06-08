@@ -41,5 +41,4 @@ if (!ingresoExitoso && intentosFallidos === intentos) {
 
 
 if (ingresoExitoso) {
-  /*Código para redireccionar a la página permitida*/
-  window.location.href = "https://chat.openai.com/";}
+   window.location.href = "https://chat.openai.com/";}
