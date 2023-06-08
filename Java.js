@@ -7,8 +7,8 @@ for (let i = 0; i < intentos; i++) {
   let nombre = prompt("Ingresa tu nombre: ");
 
   if (!nombre || !nombre.match(caracteresPermitidos)) {
-    console.log("No respondiste lo pedido o ingresaste un nombre inválido.");
-    alert("No respondiste lo pedido o ingresaste un nombre inválido.");
+    console.log("No respondiste lo pedido o nombre inválido.");
+    alert("No respondiste lo pedido o nombre inválido.");
     intentosFallidos++;
     continue;
   }
@@ -16,8 +16,8 @@ for (let i = 0; i < intentos; i++) {
   let edad = parseInt(prompt("Ingresa tu edad: "));
 
   if (isNaN(edad) || edad <= 0) {
-    console.log("No respondiste lo pedido o ingresaste una edad inválida.");
-    alert("No respondiste lo pedido o ingresaste una edad inválida.");
+    console.log("No respondiste lo pedido o edad inválida.");
+    alert("No respondiste lo pedido o edad inválida.");
     intentosFallidos++;
     continue;
   }
